@@ -1,0 +1,53 @@
+Watching for file changes with StatReloader
+/home/alexfro/GeekBrains/Django/djangoProject/myproject/alexapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/alexfro/GeekBrains/Django/djangoProject/myproject/alexapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/alexfro/GeekBrains/Django/djangoProject/myproject/alexapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /prefix/
+"GET /prefix/ HTTP/1.1" 404 2429
+Not Found: /prefix/about
+"GET /prefix/about HTTP/1.1" 404 2444
+/home/alexfro/GeekBrains/Django/djangoProject/myproject/myproject/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/alexfro/GeekBrains/Django/djangoProject/myproject/myproject/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2169
+"GET /prefix/ HTTP/1.1" 200 13
+"GET /prefix/about HTTP/1.1" 301 0
+"GET /prefix/about/ HTTP/1.1" 200 27
+/home/alexfro/GeekBrains/Django/djangoProject/myproject/myproject/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/alexfro/GeekBrains/Django/djangoProject/myproject/myproject/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Error in about page: division by zero
+Traceback (most recent call last):
+  File "/home/alexfro/GeekBrains/Django/djangoProject/myproject/alexapp/views.py", line 15, in about
+    result = 1 / 0
+ZeroDivisionError: division by zero
+"GET /prefix/about/ HTTP/1.1" 200 27
+/home/alexfro/GeekBrains/Django/djangoProject/myproject/myproject/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2169
+Index page accessed
+"GET /prefix/ HTTP/1.1" 200 13
+Error in about page: division by zero
+Traceback (most recent call last):
+  File "/home/alexfro/GeekBrains/Django/djangoProject/myproject/alexapp/views.py", line 15, in about
+    result = 1 / 0
+ZeroDivisionError: division by zero
+"GET /prefix/about/ HTTP/1.1" 200 27
+/home/alexfro/GeekBrains/Django/djangoProject/myproject/myproject/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/alexfro/GeekBrains/Django/djangoProject/myproject/myproject/settings.py changed, reloading.
+INFO 2024-03-23 17:52:17,479 autoreload 7949 134392886267904 Watching for file changes with StatReloader
+ERROR 2024-03-23 17:52:23,690 views 7949 134392834426432 Error in about page: division by zero
+Traceback (most recent call last):
+  File "/home/alexfro/GeekBrains/Django/djangoProject/myproject/alexapp/views.py", line 15, in about
+    result = 1 / 0
+ZeroDivisionError: division by zero
+INFO 2024-03-23 17:52:23,695 basehttp 7949 134392834426432 "GET /prefix/about/ HTTP/1.1" 200 27
