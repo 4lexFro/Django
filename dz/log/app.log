@@ -1,0 +1,6 @@
+INFO:root:Посещена страница 'о себе'
+INFO:django.server:"GET /about/ HTTP/1.1" 200 314
+INFO:root:Посещена страница 'о себе'
+INFO:django.server:"GET /about/ HTTP/1.1" 200 314
+INFO:root:Посещена главная страница
+INFO:django.server:"GET / HTTP/1.1" 200 354
