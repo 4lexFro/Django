@@ -4,3 +4,8 @@ INFO:root:Посещена страница 'о себе'
 INFO:django.server:"GET /about/ HTTP/1.1" 200 314
 INFO:root:Посещена главная страница
 INFO:django.server:"GET / HTTP/1.1" 200 354
+INFO:root:Посещена главная страница
+INFO:django.server:"GET / HTTP/1.1" 200 354
+WARNING:django.request:Not Found: /favicon.ico
+WARNING:django.server:"GET /favicon.ico HTTP/1.1" 404 2434
+INFO:django.utils.autoreload:/home/alexfro/GeekBrains/Django/djangoProject/dz/dz/settings.py changed, reloading.
