@@ -1,12 +1,9 @@
 from django.core.management.base import BaseCommand
-from myapp2.models import User
-
-
-# запуск командой python manage.py delete_user 3 # удалить юзера с id=3
+from task2.models import Client
 
 
 class Command(BaseCommand):
-    help = "Delete user by id."
+    help = "Delete client"
 
 
     def add_arguments(self, parser):
@@ -15,7 +12,7 @@ class Command(BaseCommand):
 
     def handle(self, *args, **kwargs):
         pk = kwargs.get('pk')
-        user = User.objects.filter(pk=pk).first()
-        if user is not None:
-            user.delete()
-        self.stdout.write(f'{user}')
+        client = Client.objects.filter(pk=pk).first()
+        if client is not None:
+            client.delete()
+        self.stdout.write(f'{client}')
