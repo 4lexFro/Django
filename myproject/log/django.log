@@ -72,3 +72,76 @@ ZeroDivisionError: division by zero
 INFO 2024-03-30 12:56:05,559 basehttp 6032 138011539928640 "GET /about/ HTTP/1.1" 200 27
 INFO 2024-03-30 12:58:52,940 autoreload 6168 135583599218688 Watching for file changes with StatReloader
 INFO 2024-03-30 13:09:23,852 autoreload 6321 129832683298816 Watching for file changes with StatReloader
+INFO 2024-04-02 18:45:51,506 autoreload 5723 130114752745472 Watching for file changes with StatReloader
+INFO 2024-04-02 18:46:00,648 views 5723 130114624943680 Index page accessed
+INFO 2024-04-02 18:46:00,666 basehttp 5723 130114624943680 "GET / HTTP/1.1" 200 13
+WARNING 2024-04-02 18:46:04,139 log 5723 130114624943680 Not Found: /favicon.ico
+WARNING 2024-04-02 18:46:04,141 basehttp 5723 130114624943680 "GET /favicon.ico HTTP/1.1" 404 2546
+WARNING 2024-04-02 18:46:10,802 log 5723 130114624943680 Not Found: /lec3
+WARNING 2024-04-02 18:46:10,803 basehttp 5723 130114624943680 "GET /lec3 HTTP/1.1" 404 2525
+ERROR 2024-04-02 18:46:34,331 views 5723 130114624943680 Error in about page: division by zero
+Traceback (most recent call last):
+  File "/home/alexfro/GeekBrains/Django/djangoProject/myproject/alexapp/views.py", line 15, in about
+    result = 1 / 0
+ZeroDivisionError: division by zero
+INFO 2024-04-02 18:46:34,339 basehttp 5723 130114624943680 "GET /about/ HTTP/1.1" 200 27
+WARNING 2024-04-02 18:47:04,076 log 5723 130114624943680 Not Found: /les3
+WARNING 2024-04-02 18:47:04,085 basehttp 5723 130114624943680 "GET /les3 HTTP/1.1" 404 2525
+WARNING 2024-04-02 18:48:18,301 log 5723 130114624943680 Not Found: /les3/
+WARNING 2024-04-02 18:48:18,306 basehttp 5723 130114624943680 "GET /les3/ HTTP/1.1" 404 2769
+INFO 2024-04-02 18:48:45,523 basehttp 5723 130114624943680 "GET /les3/hello/ HTTP/1.1" 200 26
+INFO 2024-04-02 18:48:53,151 basehttp 5723 130114624943680 "GET /les3/hello2/ HTTP/1.1" 200 23
+INFO 2024-04-02 18:50:20,358 basehttp 5723 130114624943680 "GET /les3/hello2 HTTP/1.1" 301 0
+INFO 2024-04-02 18:50:20,382 basehttp 5723 130114624943680 "GET /les3/hello2/ HTTP/1.1" 200 23
+INFO 2024-04-02 18:52:27,471 autoreload 5723 130114752745472 /home/alexfro/GeekBrains/Django/djangoProject/myproject/myapp3/urls.py changed, reloading.
+INFO 2024-04-02 18:52:28,594 autoreload 5986 138006887043072 Watching for file changes with StatReloader
+INFO 2024-04-02 18:52:41,121 autoreload 5986 138006887043072 /home/alexfro/GeekBrains/Django/djangoProject/myproject/myapp3/urls.py changed, reloading.
+INFO 2024-04-02 18:52:41,846 autoreload 6002 135463486726144 Watching for file changes with StatReloader
+INFO 2024-04-02 18:57:49,567 autoreload 6002 135463486726144 /home/alexfro/GeekBrains/Django/djangoProject/myproject/myapp3/views.py changed, reloading.
+INFO 2024-04-02 18:57:51,122 autoreload 6081 128137830469632 Watching for file changes with StatReloader
+INFO 2024-04-02 18:59:05,536 autoreload 6081 128137830469632 /home/alexfro/GeekBrains/Django/djangoProject/myproject/myapp3/views.py changed, reloading.
+INFO 2024-04-02 18:59:06,134 autoreload 6108 126673582751744 Watching for file changes with StatReloader
+INFO 2024-04-02 18:59:25,924 autoreload 6108 126673582751744 /home/alexfro/GeekBrains/Django/djangoProject/myproject/myapp3/views.py changed, reloading.
+INFO 2024-04-02 18:59:26,588 autoreload 6125 136855634644992 Watching for file changes with StatReloader
+INFO 2024-04-02 18:59:50,263 autoreload 6125 136855634644992 /home/alexfro/GeekBrains/Django/djangoProject/myproject/myapp3/views.py changed, reloading.
+INFO 2024-04-02 18:59:50,831 autoreload 6144 140363315609600 Watching for file changes with StatReloader
+INFO 2024-04-02 19:01:26,555 autoreload 6144 140363315609600 /home/alexfro/GeekBrains/Django/djangoProject/myproject/myapp3/views.py changed, reloading.
+INFO 2024-04-02 19:01:28,383 autoreload 6169 130344207585280 Watching for file changes with StatReloader
+INFO 2024-04-02 19:03:09,402 autoreload 6169 130344207585280 /home/alexfro/GeekBrains/Django/djangoProject/myproject/myapp3/views.py changed, reloading.
+INFO 2024-04-02 19:03:10,238 autoreload 6195 136855984574464 Watching for file changes with StatReloader
+INFO 2024-04-02 19:09:05,087 autoreload 6195 136855984574464 /home/alexfro/GeekBrains/Django/djangoProject/myproject/myapp3/views.py changed, reloading.
+INFO 2024-04-02 19:09:05,736 autoreload 6325 123270879875072 Watching for file changes with StatReloader
+WARNING 2024-04-02 19:09:12,661 log 6325 123270823147072 Not Found: /les3/posts/
+WARNING 2024-04-02 19:09:12,662 basehttp 6325 123270823147072 "GET /les3/posts/ HTTP/1.1" 404 3423
+INFO 2024-04-02 19:09:20,532 basehttp 6325 123270823147072 "GET /les3/posts/2022/ HTTP/1.1" 200 19
+INFO 2024-04-02 19:09:28,276 basehttp 6325 123270823147072 "GET /les3/posts/2022/4/ HTTP/1.1" 200 16
+INFO 2024-04-02 19:12:14,161 basehttp 6325 123270823147072 "GET /les3/posts/2022/4/pyton/ HTTP/1.1" 200 362
+INFO 2024-04-03 14:58:07,461 autoreload 5408 125822141222912 Watching for file changes with StatReloader
+INFO 2024-04-03 14:58:17,995 views 5408 125822084052544 Index page accessed
+INFO 2024-04-03 14:58:18,009 basehttp 5408 125822084052544 "GET / HTTP/1.1" 200 13
+WARNING 2024-04-03 14:58:26,883 log 5408 125822084052544 Not Found: /favicon.ico
+WARNING 2024-04-03 14:58:26,887 basehttp 5408 125822084052544 "GET /favicon.ico HTTP/1.1" 404 2546
+WARNING 2024-04-03 14:58:35,858 log 5408 125822084052544 Not Found: /index/
+WARNING 2024-04-03 14:58:35,862 basehttp 5408 125822084052544 "GET /index/ HTTP/1.1" 404 2531
+INFO 2024-04-03 14:59:13,516 views 5408 125822084052544 Index page accessed
+INFO 2024-04-03 14:59:13,517 basehttp 5408 125822084052544 "GET / HTTP/1.1" 200 13
+INFO 2024-04-03 14:59:30,886 basehttp 5408 125822084052544 "GET /les3/hello2/ HTTP/1.1" 200 23
+INFO 2024-04-03 14:59:37,200 basehttp 5408 125822084052544 "GET /les3/ HTTP/1.1" 200 175
+INFO 2024-04-03 15:08:21,586 autoreload 5408 125822141222912 /home/alexfro/GeekBrains/Django/djangoProject/myproject/myapp3/views.py changed, reloading.
+INFO 2024-04-03 15:08:22,171 autoreload 6010 126593871593472 Watching for file changes with StatReloader
+INFO 2024-04-03 15:10:26,643 autoreload 6010 126593871593472 /home/alexfro/GeekBrains/Django/djangoProject/myproject/myapp3/views.py changed, reloading.
+INFO 2024-04-03 15:10:27,757 autoreload 6031 138258341240832 Watching for file changes with StatReloader
+INFO 2024-04-03 15:12:39,590 autoreload 6031 138258341240832 /home/alexfro/GeekBrains/Django/djangoProject/myproject/myapp3/views.py changed, reloading.
+INFO 2024-04-03 15:12:40,239 autoreload 6055 140119265132544 Watching for file changes with StatReloader
+INFO 2024-04-03 15:13:13,404 autoreload 6055 140119265132544 /home/alexfro/GeekBrains/Django/djangoProject/myproject/myapp3/urls.py changed, reloading.
+INFO 2024-04-03 15:13:14,271 autoreload 6084 124967431577600 Watching for file changes with StatReloader
+INFO 2024-04-03 15:13:44,367 autoreload 6084 124967431577600 /home/alexfro/GeekBrains/Django/djangoProject/myproject/myapp3/urls.py changed, reloading.
+INFO 2024-04-03 15:13:45,335 autoreload 6107 125164776267776 Watching for file changes with StatReloader
+INFO 2024-04-03 15:14:12,011 basehttp 6107 125164718126656 "GET /les3/if/ HTTP/1.1" 200 346
+INFO 2024-04-03 15:31:59,466 autoreload 6107 125164776267776 /home/alexfro/GeekBrains/Django/djangoProject/myproject/myapp3/views.py changed, reloading.
+INFO 2024-04-03 15:32:00,279 autoreload 6322 128530073600000 Watching for file changes with StatReloader
+INFO 2024-04-03 15:32:40,416 autoreload 6322 128530073600000 /home/alexfro/GeekBrains/Django/djangoProject/myproject/myapp3/views.py changed, reloading.
+INFO 2024-04-03 15:32:41,476 autoreload 6332 138948269031424 Watching for file changes with StatReloader
+INFO 2024-04-03 15:34:35,675 autoreload 6332 138948269031424 /home/alexfro/GeekBrains/Django/djangoProject/myproject/myapp3/urls.py changed, reloading.
+INFO 2024-04-03 15:34:36,613 autoreload 6405 127565865467904 Watching for file changes with StatReloader
+INFO 2024-04-03 15:36:42,312 basehttp 6405 127565809317440 "GET /les3/for/ HTTP/1.1" 200 859

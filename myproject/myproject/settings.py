@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'alexapp',
     'myapp2',
+    'myapp3',
 
 ]
 
