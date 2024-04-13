@@ -145,3 +145,357 @@ INFO 2024-04-03 15:32:41,476 autoreload 6332 138948269031424 Watching for file c
 INFO 2024-04-03 15:34:35,675 autoreload 6332 138948269031424 /home/alexfro/GeekBrains/Django/djangoProject/myproject/myapp3/urls.py changed, reloading.
 INFO 2024-04-03 15:34:36,613 autoreload 6405 127565865467904 Watching for file changes with StatReloader
 INFO 2024-04-03 15:36:42,312 basehttp 6405 127565809317440 "GET /les3/for/ HTTP/1.1" 200 859
+INFO 2024-04-05 19:20:12,802 autoreload 8059 132214153789440 Watching for file changes with StatReloader
+INFO 2024-04-05 19:20:42,717 autoreload 8059 132214153789440 /home/alexfro/GeekBrains/Django/djangoProject/myproject/myproject/urls.py changed, reloading.
+INFO 2024-04-05 19:20:43,303 autoreload 8072 133605191208960 Watching for file changes with StatReloader
+INFO 2024-04-05 19:20:49,051 autoreload 8075 123917282500608 Watching for file changes with StatReloader
+INFO 2024-04-05 19:20:52,816 views 8075 123917225162304 Index page accessed
+INFO 2024-04-05 19:20:52,829 basehttp 8075 123917225162304 "GET / HTTP/1.1" 200 13
+WARNING 2024-04-05 19:20:56,747 log 8075 123917225162304 Not Found: /favicon.ico
+WARNING 2024-04-05 19:20:56,754 basehttp 8075 123917225162304 "GET /favicon.ico HTTP/1.1" 404 2651
+ERROR 2024-04-05 19:22:11,470 log 8075 123917225162304 Internal Server Error: /les4/user/add/
+Traceback (most recent call last):
+  File "/home/alexfro/GeekBrains/Django/djangoProject/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/alexfro/GeekBrains/Django/djangoProject/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/alexfro/GeekBrains/Django/djangoProject/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.user_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-04-05 19:22:11,476 basehttp 8075 123917225162304 "GET /les4/user/add/ HTTP/1.1" 500 73373
+INFO 2024-04-05 19:22:54,533 basehttp 8075 123917225162304 "GET /les4/user/add HTTP/1.1" 301 0
+ERROR 2024-04-05 19:22:54,596 log 8075 123917225162304 Internal Server Error: /les4/user/add/
+Traceback (most recent call last):
+  File "/home/alexfro/GeekBrains/Django/djangoProject/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/alexfro/GeekBrains/Django/djangoProject/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/alexfro/GeekBrains/Django/djangoProject/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.user_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-04-05 19:22:54,603 basehttp 8075 123917225162304 "GET /les4/user/add/ HTTP/1.1" 500 73373
+INFO 2024-04-05 19:24:46,146 autoreload 8075 123917282500608 /home/alexfro/GeekBrains/Django/djangoProject/myproject/myapp4/urls.py changed, reloading.
+INFO 2024-04-05 19:24:47,794 autoreload 8350 138342204989440 Watching for file changes with StatReloader
+ERROR 2024-04-05 19:25:44,189 log 8350 138342147552832 Internal Server Error: /les4/user/add/
+Traceback (most recent call last):
+  File "/home/alexfro/GeekBrains/Django/djangoProject/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/alexfro/GeekBrains/Django/djangoProject/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/alexfro/GeekBrains/Django/djangoProject/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.user_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-04-05 19:25:44,191 basehttp 8350 138342147552832 "GET /les4/user/add/ HTTP/1.1" 500 73510
+WARNING 2024-04-05 19:25:55,846 log 8350 138342147552832 Not Found: /les4/
+WARNING 2024-04-05 19:25:55,849 basehttp 8350 138342147552832 "GET /les4/ HTTP/1.1" 404 2707
+INFO 2024-04-05 19:26:11,342 basehttp 8350 138342147552832 "GET /les3/ HTTP/1.1" 200 175
+INFO 2024-04-05 19:30:49,161 basehttp 8350 138342147552832 "GET /les3/ HTTP/1.1" 200 175
+ERROR 2024-04-05 19:31:16,142 log 8350 138342147552832 Internal Server Error: /les4/user/add/
+Traceback (most recent call last):
+  File "/home/alexfro/GeekBrains/Django/djangoProject/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/alexfro/GeekBrains/Django/djangoProject/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/alexfro/GeekBrains/Django/djangoProject/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.user_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-04-05 19:31:16,143 basehttp 8350 138342147552832 "GET /les4/user/add/ HTTP/1.1" 500 73373
+INFO 2024-04-05 19:33:03,328 autoreload 8350 138342204989440 /home/alexfro/GeekBrains/Django/djangoProject/myproject/myapp4/views.py changed, reloading.
+INFO 2024-04-05 19:33:03,924 autoreload 8486 129704347365376 Watching for file changes with StatReloader
+INFO 2024-04-05 19:33:08,475 autoreload 8489 134500173471744 Watching for file changes with StatReloader
+INFO 2024-04-05 19:33:11,470 views 8489 134500049745472 Index page accessed
+INFO 2024-04-05 19:33:11,473 basehttp 8489 134500049745472 "GET / HTTP/1.1" 200 13
+ERROR 2024-04-05 19:33:41,358 log 8489 134500049745472 Internal Server Error: /les4/user/add/
+Traceback (most recent call last):
+  File "/home/alexfro/GeekBrains/Django/djangoProject/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/alexfro/GeekBrains/Django/djangoProject/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/alexfro/GeekBrains/Django/djangoProject/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.user_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-04-05 19:33:41,365 basehttp 8489 134500049745472 "GET /les4/user/add/ HTTP/1.1" 500 73373
+INFO 2024-04-05 19:40:17,297 autoreload 8591 123753523306496 Watching for file changes with StatReloader
+INFO 2024-04-05 19:40:19,851 views 8591 123753465902656 Index page accessed
+INFO 2024-04-05 19:40:19,867 basehttp 8591 123753465902656 "GET / HTTP/1.1" 200 13
+ERROR 2024-04-05 19:40:41,149 log 8591 123753465902656 Internal Server Error: /les4/user/add/
+Traceback (most recent call last):
+  File "/home/alexfro/GeekBrains/Django/djangoProject/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/alexfro/GeekBrains/Django/djangoProject/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/alexfro/GeekBrains/Django/djangoProject/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.user_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-04-05 19:40:41,151 basehttp 8591 123753465902656 "GET /les4/user/add/ HTTP/1.1" 500 73373
+INFO 2024-04-05 19:52:20,662 autoreload 8923 124017753186304 Watching for file changes with StatReloader
+INFO 2024-04-05 19:53:44,941 autoreload 8951 132846199463936 Watching for file changes with StatReloader
+INFO 2024-04-05 19:55:36,300 autoreload 8951 132846199463936 /home/alexfro/GeekBrains/Django/djangoProject/myproject/myapp4/forms.py changed, reloading.
+INFO 2024-04-05 19:55:37,028 autoreload 9078 131426593988608 Watching for file changes with StatReloader
+INFO 2024-04-05 19:55:58,759 autoreload 9078 131426593988608 /home/alexfro/GeekBrains/Django/djangoProject/myproject/myapp4/forms.py changed, reloading.
+INFO 2024-04-05 19:55:59,333 autoreload 9099 127710005948416 Watching for file changes with StatReloader
+INFO 2024-04-05 19:56:03,387 autoreload 9102 133208977268736 Watching for file changes with StatReloader
+INFO 2024-04-05 19:56:44,470 autoreload 9102 133208977268736 /home/alexfro/GeekBrains/Django/djangoProject/myproject/myapp4/forms.py changed, reloading.
+INFO 2024-04-05 19:56:45,045 autoreload 9146 135256068153344 Watching for file changes with StatReloader
+INFO 2024-04-05 19:56:48,093 autoreload 9149 132985655484416 Watching for file changes with StatReloader
+INFO 2024-04-05 19:56:51,908 views 9149 132985597720128 Index page accessed
+INFO 2024-04-05 19:56:51,915 basehttp 9149 132985597720128 "GET / HTTP/1.1" 200 13
+ERROR 2024-04-05 19:57:25,958 log 9149 132985597720128 Internal Server Error: /les4/forms/
+Traceback (most recent call last):
+  File "/home/alexfro/GeekBrains/Django/djangoProject/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/alexfro/GeekBrains/Django/djangoProject/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alexfro/GeekBrains/Django/djangoProject/myproject/myapp4/views.py", line 29, in many_fields_form
+    return render(request, 'myapp4/many_fields_form.html',{'form': form})
+  File "/home/alexfro/GeekBrains/Django/djangoProject/venv/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/alexfro/GeekBrains/Django/djangoProject/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/alexfro/GeekBrains/Django/djangoProject/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp4/many_fields_form.html
+ERROR 2024-04-05 19:57:25,964 basehttp 9149 132985597720128 "GET /les4/forms/ HTTP/1.1" 500 87423
+INFO 2024-04-11 18:59:42,036 autoreload 28278 129096231682048 Watching for file changes with StatReloader
+INFO 2024-04-11 18:59:52,386 views 28278 129096106374720 Index page accessed
+INFO 2024-04-11 18:59:52,396 basehttp 28278 129096106374720 "GET / HTTP/1.1" 200 13
+WARNING 2024-04-11 19:00:01,793 log 28278 129096106374720 Not Found: /favicon.ico
+WARNING 2024-04-11 19:00:01,799 basehttp 28278 129096106374720 "GET /favicon.ico HTTP/1.1" 404 2651
+INFO 2024-04-11 19:03:00,176 basehttp 28278 129096106374720 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-04-11 19:03:00,278 basehttp 28278 129096106374720 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+INFO 2024-04-11 19:03:00,744 basehttp 28278 129096106374720 "GET /static/admin/css/base.css HTTP/1.1" 200 21544
+INFO 2024-04-11 19:03:00,784 basehttp 28278 129096095884864 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2682
+INFO 2024-04-11 19:03:00,804 basehttp 28278 129096087492160 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2024-04-11 19:03:00,827 basehttp 28278 129096079099456 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2024-04-11 19:03:00,887 basehttp 28278 129096070706752 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17905
+INFO 2024-04-11 19:03:01,028 basehttp 28278 129096070706752 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2024-04-11 19:03:01,058 basehttp 28278 129096079099456 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2024-04-11 19:04:55,897 autoreload 28278 129096231682048 /home/alexfro/GeekBrains/Django/djangoProject/myproject/myproject/settings.py changed, reloading.
+INFO 2024-04-11 19:04:58,104 autoreload 28695 137012579467264 Watching for file changes with StatReloader
+INFO 2024-04-11 19:05:26,251 basehttp 28695 137012521727552 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+INFO 2024-04-11 19:14:54,166 autoreload 28850 123973850857472 Watching for file changes with StatReloader
+INFO 2024-04-11 19:14:56,889 views 28850 123973794788928 Index page accessed
+INFO 2024-04-11 19:14:56,892 basehttp 28850 123973794788928 "GET / HTTP/1.1" 200 13
+INFO 2024-04-11 19:15:07,622 basehttp 28850 123973794788928 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-04-11 19:15:07,673 basehttp 28850 123973794788928 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+ERROR 2024-04-11 19:15:24,500 log 28850 123973794788928 Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "/home/alexfro/GeekBrains/Django/djangoProject/venv/lib/python3.10/site-packages/django/db/backends/base/base.py", line 299, in _commit
+    return self.connection.commit()
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/alexfro/GeekBrains/Django/djangoProject/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/alexfro/GeekBrains/Django/djangoProject/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alexfro/GeekBrains/Django/djangoProject/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/alexfro/GeekBrains/Django/djangoProject/venv/lib/python3.10/site-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "/home/alexfro/GeekBrains/Django/djangoProject/venv/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 440, in login
+    return LoginView.as_view(**defaults)(request)
+  File "/home/alexfro/GeekBrains/Django/djangoProject/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alexfro/GeekBrains/Django/djangoProject/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/alexfro/GeekBrains/Django/djangoProject/venv/lib/python3.10/site-packages/django/views/decorators/debug.py", line 143, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/home/alexfro/GeekBrains/Django/djangoProject/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/alexfro/GeekBrains/Django/djangoProject/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "/home/alexfro/GeekBrains/Django/djangoProject/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "/home/alexfro/GeekBrains/Django/djangoProject/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/alexfro/GeekBrains/Django/djangoProject/venv/lib/python3.10/site-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "/home/alexfro/GeekBrains/Django/djangoProject/venv/lib/python3.10/site-packages/django/contrib/auth/views.py", line 88, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/alexfro/GeekBrains/Django/djangoProject/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/alexfro/GeekBrains/Django/djangoProject/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 151, in post
+    return self.form_valid(form)
+  File "/home/alexfro/GeekBrains/Django/djangoProject/venv/lib/python3.10/site-packages/django/contrib/auth/views.py", line 107, in form_valid
+    auth_login(self.request, form.get_user())
+  File "/home/alexfro/GeekBrains/Django/djangoProject/venv/lib/python3.10/site-packages/django/contrib/auth/__init__.py", line 126, in login
+    request.session.cycle_key()
+  File "/home/alexfro/GeekBrains/Django/djangoProject/venv/lib/python3.10/site-packages/django/contrib/sessions/backends/base.py", line 304, in cycle_key
+    self.create()
+  File "/home/alexfro/GeekBrains/Django/djangoProject/venv/lib/python3.10/site-packages/django/contrib/sessions/backends/db.py", line 54, in create
+    self.save(must_create=True)
+  File "/home/alexfro/GeekBrains/Django/djangoProject/venv/lib/python3.10/site-packages/django/contrib/sessions/backends/db.py", line 85, in save
+    with transaction.atomic(using=using):
+  File "/home/alexfro/GeekBrains/Django/djangoProject/venv/lib/python3.10/site-packages/django/db/transaction.py", line 263, in __exit__
+    connection.commit()
+  File "/home/alexfro/GeekBrains/Django/djangoProject/venv/lib/python3.10/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/alexfro/GeekBrains/Django/djangoProject/venv/lib/python3.10/site-packages/django/db/backends/base/base.py", line 323, in commit
+    self._commit()
+  File "/home/alexfro/GeekBrains/Django/djangoProject/venv/lib/python3.10/site-packages/django/db/backends/base/base.py", line 298, in _commit
+    with debug_transaction(self, "COMMIT"), self.wrap_database_errors:
+  File "/home/alexfro/GeekBrains/Django/djangoProject/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/alexfro/GeekBrains/Django/djangoProject/venv/lib/python3.10/site-packages/django/db/backends/base/base.py", line 299, in _commit
+    return self.connection.commit()
+django.db.utils.OperationalError: database is locked
+ERROR 2024-04-11 19:15:24,505 basehttp 28850 123973794788928 "POST /admin/login/?next=/admin/ HTTP/1.1" 500 190605
+WARNING 2024-04-11 19:15:25,319 log 28850 123973794788928 Not Found: /favicon.ico
+WARNING 2024-04-11 19:15:25,322 basehttp 28850 123973794788928 "GET /favicon.ico HTTP/1.1" 404 2651
+WARNING 2024-04-11 19:15:26,231 log 28850 123973794788928 Not Found: /favicon.ico
+WARNING 2024-04-11 19:15:26,237 basehttp 28850 123973794788928 "GET /favicon.ico HTTP/1.1" 404 2651
+INFO 2024-04-11 19:16:09,396 basehttp 28850 123973794788928 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-04-11 19:16:09,458 basehttp 28850 123973794788928 "GET /admin/ HTTP/1.1" 200 5944
+INFO 2024-04-11 19:16:09,657 basehttp 28850 123973794788928 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2024-04-11 19:16:09,859 basehttp 28850 123973794788928 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2024-04-11 19:16:09,879 basehttp 28850 123973783250496 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2024-04-11 19:16:34,056 basehttp 28850 123973783250496 "GET /admin/auth/user/add/ HTTP/1.1" 200 11238
+INFO 2024-04-11 19:16:34,258 basehttp 28850 123973783250496 "GET /static/admin/css/forms.css HTTP/1.1" 200 9090
+INFO 2024-04-11 19:16:34,289 basehttp 28850 123973559907904 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2024-04-11 19:16:34,305 basehttp 28850 123973770659392 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2024-04-11 19:16:34,316 basehttp 28850 123973794788928 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-11 19:16:34,344 basehttp 28850 123973551515200 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2024-04-11 19:16:34,354 basehttp 28850 123973543122496 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9042
+INFO 2024-04-11 19:16:34,366 basehttp 28850 123973559907904 "GET /static/admin/js/actions.js HTTP/1.1" 200 8067
+INFO 2024-04-11 19:16:34,379 basehttp 28850 123973783250496 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2024-04-11 19:16:34,438 basehttp 28850 123973794788928 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2024-04-11 19:16:34,445 basehttp 28850 123973543122496 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2024-04-11 19:16:34,449 basehttp 28850 123973551515200 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2024-04-11 19:16:34,708 basehttp 28850 123973543122496 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11800
+INFO 2024-04-11 19:16:34,717 basehttp 28850 123973551515200 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2024-04-11 19:16:48,267 basehttp 28850 123973551515200 "POST /admin/auth/user/add/ HTTP/1.1" 200 11638
+INFO 2024-04-11 19:16:48,480 basehttp 28850 123973551515200 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-11 19:16:53,491 basehttp 28850 123973551515200 "GET /admin/auth/user/add/ HTTP/1.1" 200 11238
+INFO 2024-04-11 19:16:54,565 basehttp 28850 123973551515200 "GET /admin/ HTTP/1.1" 200 5944
+INFO 2024-04-11 19:19:16,591 basehttp 28850 123973551515200 "GET /admin/auth/user/ HTTP/1.1" 200 11914
+INFO 2024-04-11 19:19:16,755 basehttp 28850 123973551515200 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6811
+INFO 2024-04-11 19:19:16,768 basehttp 28850 123973543122496 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2024-04-11 19:19:16,776 basehttp 28850 123973794788928 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2024-04-11 19:19:16,813 basehttp 28850 123973551515200 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-11 19:19:17,006 basehttp 28850 123973551515200 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2024-04-11 19:19:17,036 basehttp 28850 123973551515200 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2024-04-11 19:19:17,071 basehttp 28850 123973794788928 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2024-04-11 19:19:17,101 basehttp 28850 123973543122496 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2024-04-11 19:21:41,899 basehttp 28850 123973543122496 "GET /admin/auth/user/add/ HTTP/1.1" 200 11238
+INFO 2024-04-11 19:21:42,031 basehttp 28850 123973543122496 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-11 19:21:59,792 basehttp 28850 123973543122496 "POST /admin/auth/user/add/ HTTP/1.1" 200 11745
+INFO 2024-04-11 19:21:59,896 basehttp 28850 123973543122496 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+WARNING 2024-04-11 19:22:00,504 log 28850 123973543122496 Not Found: /favicon.ico
+WARNING 2024-04-11 19:22:00,518 basehttp 28850 123973543122496 "GET /favicon.ico HTTP/1.1" 404 2651
+WARNING 2024-04-11 19:22:00,657 log 28850 123973543122496 Not Found: /favicon.ico
+WARNING 2024-04-11 19:22:00,663 basehttp 28850 123973543122496 "GET /favicon.ico HTTP/1.1" 404 2651
+INFO 2024-04-11 19:23:28,090 basehttp 28850 123973543122496 "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 2024-04-11 19:23:28,183 basehttp 28850 123973543122496 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 24894
+INFO 2024-04-11 19:23:28,399 basehttp 28850 123973794788928 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2024-04-11 19:23:28,401 basehttp 28850 123973551515200 "GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+INFO 2024-04-11 19:23:28,442 basehttp 28850 123973770659392 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15492
+INFO 2024-04-11 19:23:28,443 basehttp 28850 123973783250496 "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+INFO 2024-04-11 19:23:28,446 basehttp 28850 123973543122496 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+WARNING 2024-04-11 19:23:28,822 log 28850 123973770659392 Not Found: /favicon.ico
+WARNING 2024-04-11 19:23:28,836 basehttp 28850 123973770659392 "GET /favicon.ico HTTP/1.1" 404 2651
+WARNING 2024-04-11 19:23:28,942 log 28850 123973770659392 Not Found: /favicon.ico
+WARNING 2024-04-11 19:23:28,949 basehttp 28850 123973770659392 "GET /favicon.ico HTTP/1.1" 404 2651
+INFO 2024-04-11 19:23:29,828 basehttp 28850 123973770659392 "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+INFO 2024-04-11 19:23:29,830 basehttp 28850 123973783250496 "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2024-04-11 19:23:29,852 basehttp 28850 123973770659392 "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+INFO 2024-04-11 19:23:29,855 basehttp 28850 123973543122496 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2024-04-11 19:23:29,859 basehttp 28850 123973794788928 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2024-04-11 19:43:31,797 basehttp 28850 123973543122496 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2024-04-11 19:43:31,897 basehttp 28850 123973543122496 "GET /admin/auth/user/ HTTP/1.1" 200 12647
+INFO 2024-04-11 19:43:32,296 basehttp 28850 123973543122496 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+WARNING 2024-04-11 19:43:33,408 log 28850 123973543122496 Not Found: /favicon.ico
+WARNING 2024-04-11 19:43:33,428 basehttp 28850 123973543122496 "GET /favicon.ico HTTP/1.1" 404 2651
+INFO 2024-04-11 19:43:42,242 basehttp 28850 123973543122496 "GET /admin/auth/group/ HTTP/1.1" 200 7783
+INFO 2024-04-11 19:43:42,385 basehttp 28850 123973543122496 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+WARNING 2024-04-11 19:43:42,717 log 28850 123973543122496 Not Found: /favicon.ico
+WARNING 2024-04-11 19:43:42,739 basehttp 28850 123973543122496 "GET /favicon.ico HTTP/1.1" 404 2651
+INFO 2024-04-11 19:43:46,512 basehttp 28850 123973543122496 "GET /admin/auth/group/add/ HTTP/1.1" 200 14033
+INFO 2024-04-11 19:43:46,694 basehttp 28850 123973543122496 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+WARNING 2024-04-11 19:43:47,028 log 28850 123973543122496 Not Found: /favicon.ico
+WARNING 2024-04-11 19:43:47,043 basehttp 28850 123973543122496 "GET /favicon.ico HTTP/1.1" 404 2651
+INFO 2024-04-11 19:44:48,577 basehttp 28850 123973543122496 "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2024-04-11 19:44:48,627 basehttp 28850 123973543122496 "GET /admin/auth/group/ HTTP/1.1" 200 9518
+INFO 2024-04-11 19:44:48,878 basehttp 28850 123973543122496 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+WARNING 2024-04-11 19:44:49,330 log 28850 123973543122496 Not Found: /favicon.ico
+WARNING 2024-04-11 19:44:49,338 basehttp 28850 123973543122496 "GET /favicon.ico HTTP/1.1" 404 2651
+INFO 2024-04-11 19:44:55,770 basehttp 28850 123973543122496 "GET /admin/auth/user/ HTTP/1.1" 200 12733
+INFO 2024-04-11 19:44:55,934 basehttp 28850 123973543122496 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+WARNING 2024-04-11 19:44:56,269 log 28850 123973543122496 Not Found: /favicon.ico
+WARNING 2024-04-11 19:44:56,280 basehttp 28850 123973543122496 "GET /favicon.ico HTTP/1.1" 404 2651
+INFO 2024-04-11 19:44:58,009 basehttp 28850 123973543122496 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 24670
+INFO 2024-04-11 19:44:58,189 basehttp 28850 123973543122496 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+WARNING 2024-04-11 19:44:58,541 log 28850 123973543122496 Not Found: /favicon.ico
+WARNING 2024-04-11 19:44:58,572 basehttp 28850 123973543122496 "GET /favicon.ico HTTP/1.1" 404 2651
+INFO 2024-04-11 19:45:16,273 basehttp 28850 123973543122496 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2024-04-11 19:45:16,326 basehttp 28850 123973543122496 "GET /admin/auth/user/ HTTP/1.1" 200 12953
+INFO 2024-04-11 19:45:16,553 basehttp 28850 123973543122496 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+WARNING 2024-04-11 19:45:16,947 log 28850 123973543122496 Not Found: /favicon.ico
+WARNING 2024-04-11 19:45:16,962 basehttp 28850 123973543122496 "GET /favicon.ico HTTP/1.1" 404 2651
+INFO 2024-04-11 19:46:08,811 basehttp 28850 123973543122496 "GET /admin/auth/user/ HTTP/1.1" 200 12733
+INFO 2024-04-11 19:46:08,965 basehttp 28850 123973543122496 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+WARNING 2024-04-11 19:46:09,217 log 28850 123973543122496 Not Found: /favicon.ico
+WARNING 2024-04-11 19:46:09,219 basehttp 28850 123973543122496 "GET /favicon.ico HTTP/1.1" 404 2651
+INFO 2024-04-11 19:46:20,000 basehttp 28850 123973543122496 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 24679
+INFO 2024-04-11 19:46:20,212 basehttp 28850 123973543122496 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+WARNING 2024-04-11 19:46:20,568 log 28850 123973543122496 Not Found: /favicon.ico
+WARNING 2024-04-11 19:46:20,595 basehttp 28850 123973543122496 "GET /favicon.ico HTTP/1.1" 404 2651
+INFO 2024-04-11 19:46:28,355 basehttp 28850 123973543122496 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2024-04-11 19:46:28,398 basehttp 28850 123973543122496 "GET /admin/auth/user/ HTTP/1.1" 200 12953
+INFO 2024-04-11 19:46:28,603 basehttp 28850 123973543122496 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+WARNING 2024-04-11 19:46:28,903 log 28850 123973543122496 Not Found: /favicon.ico
+WARNING 2024-04-11 19:46:28,953 basehttp 28850 123973543122496 "GET /favicon.ico HTTP/1.1" 404 2651
+INFO 2024-04-11 19:46:51,892 basehttp 28850 123973543122496 "GET /admin/auth/user/ HTTP/1.1" 200 12733
+INFO 2024-04-11 19:46:52,019 basehttp 28850 123973543122496 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+WARNING 2024-04-11 19:46:52,370 log 28850 123973543122496 Not Found: /favicon.ico
+WARNING 2024-04-11 19:46:52,373 basehttp 28850 123973543122496 "GET /favicon.ico HTTP/1.1" 404 2651
+INFO 2024-04-11 19:46:58,595 basehttp 28850 123973543122496 "GET /admin/auth/user/1/change/ HTTP/1.1" 200 24717
+INFO 2024-04-11 19:46:58,729 basehttp 28850 123973543122496 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+WARNING 2024-04-11 19:46:59,104 log 28850 123973543122496 Not Found: /favicon.ico
+WARNING 2024-04-11 19:46:59,106 basehttp 28850 123973543122496 "GET /favicon.ico HTTP/1.1" 404 2651
+INFO 2024-04-11 19:47:05,316 basehttp 28850 123973543122496 "GET /admin/auth/user/ HTTP/1.1" 200 12733
+INFO 2024-04-11 19:47:05,449 basehttp 28850 123973543122496 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+WARNING 2024-04-11 19:47:05,810 log 28850 123973543122496 Not Found: /favicon.ico
+WARNING 2024-04-11 19:47:05,818 basehttp 28850 123973543122496 "GET /favicon.ico HTTP/1.1" 404 2651
+INFO 2024-04-11 19:47:33,168 basehttp 28850 123973543122496 "GET /admin/auth/user/ HTTP/1.1" 200 12733
+INFO 2024-04-11 19:47:33,310 basehttp 28850 123973543122496 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+WARNING 2024-04-11 19:47:33,603 log 28850 123973543122496 Not Found: /favicon.ico
+WARNING 2024-04-11 19:47:33,612 basehttp 28850 123973543122496 "GET /favicon.ico HTTP/1.1" 404 2651
+INFO 2024-04-11 19:48:07,104 basehttp 28850 123973543122496 "GET /admin/auth/user/1/change/ HTTP/1.1" 200 24717
+INFO 2024-04-11 19:48:07,263 basehttp 28850 123973543122496 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+WARNING 2024-04-11 19:48:07,674 log 28850 123973543122496 Not Found: /favicon.ico
+WARNING 2024-04-11 19:48:07,675 basehttp 28850 123973543122496 "GET /favicon.ico HTTP/1.1" 404 2651
+INFO 2024-04-11 19:48:15,576 basehttp 28850 123973543122496 "POST /admin/auth/user/1/change/ HTTP/1.1" 302 0
+INFO 2024-04-11 19:48:15,624 basehttp 28850 123973543122496 "GET /admin/auth/user/ HTTP/1.1" 200 12954
+INFO 2024-04-11 19:48:15,830 basehttp 28850 123973543122496 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+WARNING 2024-04-11 19:48:16,157 log 28850 123973543122496 Not Found: /favicon.ico
+WARNING 2024-04-11 19:48:16,194 basehttp 28850 123973543122496 "GET /favicon.ico HTTP/1.1" 404 2651
+INFO 2024-04-11 19:48:50,385 basehttp 28850 123973543122496 "GET /admin HTTP/1.1" 301 0
+INFO 2024-04-11 19:48:50,447 basehttp 28850 123973543122496 "GET /admin/ HTTP/1.1" 200 8177
+WARNING 2024-04-11 19:48:50,839 log 28850 123973543122496 Not Found: /favicon.ico
+WARNING 2024-04-11 19:48:50,842 basehttp 28850 123973543122496 "GET /favicon.ico HTTP/1.1" 404 2651
+INFO 2024-04-11 19:49:15,960 basehttp 28850 123973543122496 "GET /admin/auth/ HTTP/1.1" 200 6010
+WARNING 2024-04-11 19:49:16,646 log 28850 123973543122496 Not Found: /favicon.ico
+WARNING 2024-04-11 19:49:16,658 basehttp 28850 123973543122496 "GET /favicon.ico HTTP/1.1" 404 2651
+INFO 2024-04-11 19:49:27,684 basehttp 28850 123973543122496 "GET /admin/auth/user/add/ HTTP/1.1" 200 11238
+INFO 2024-04-11 19:49:28,053 basehttp 28850 123973543122496 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+WARNING 2024-04-11 19:49:28,220 log 28850 123973543122496 Not Found: /favicon.ico
+WARNING 2024-04-11 19:49:28,222 basehttp 28850 123973543122496 "GET /favicon.ico HTTP/1.1" 404 2651
+INFO 2024-04-11 19:49:31,338 basehttp 28850 123973543122496 "GET /admin/auth/user/ HTTP/1.1" 200 12733
+INFO 2024-04-11 19:49:31,531 basehttp 28850 123973543122496 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+WARNING 2024-04-11 19:49:31,840 log 28850 123973543122496 Not Found: /favicon.ico
+WARNING 2024-04-11 19:49:31,862 basehttp 28850 123973543122496 "GET /favicon.ico HTTP/1.1" 404 2651
+INFO 2024-04-11 19:50:13,789 basehttp 28850 123973543122496 "GET /admin/ HTTP/1.1" 200 8177
+WARNING 2024-04-11 19:50:14,371 log 28850 123973543122496 Not Found: /favicon.ico
+WARNING 2024-04-11 19:50:14,389 basehttp 28850 123973543122496 "GET /favicon.ico HTTP/1.1" 404 2651
+INFO 2024-04-11 19:50:27,338 basehttp 28850 123973543122496 "GET /admin/ HTTP/1.1" 200 8177
+WARNING 2024-04-11 19:50:27,772 log 28850 123973543122496 Not Found: /favicon.ico
+WARNING 2024-04-11 19:50:27,776 basehttp 28850 123973543122496 "GET /favicon.ico HTTP/1.1" 404 2651
+INFO 2024-04-11 19:52:38,719 autoreload 28850 123973850857472 /home/alexfro/GeekBrains/Django/djangoProject/myproject/myapp5/models.py changed, reloading.
+INFO 2024-04-11 19:52:40,366 autoreload 29611 140518025756672 Watching for file changes with StatReloader
+INFO 2024-04-11 19:54:35,113 autoreload 29611 140518025756672 /home/alexfro/GeekBrains/Django/djangoProject/myproject/myapp5/models.py changed, reloading.
+INFO 2024-04-11 19:54:36,109 autoreload 29646 130185140174848 Watching for file changes with StatReloader
+INFO 2024-04-11 19:55:26,113 autoreload 29646 130185140174848 /home/alexfro/GeekBrains/Django/djangoProject/myproject/myapp5/models.py changed, reloading.
+INFO 2024-04-11 19:55:27,491 autoreload 29656 137328443920384 Watching for file changes with StatReloader
