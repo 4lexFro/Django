@@ -22,4 +22,5 @@ urlpatterns = [
     path('', include('alexapp.urls')),
     path('les3/', include('myapp3.urls')),
     path('les4/', include('myapp4.urls')),
+    path('__debug__/', include("debug_toolbar.urls")),
 ]

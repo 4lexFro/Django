@@ -8,3 +8,4 @@ WARNING 2024-04-01 16:36:45,570 log 6950 139595418310208 Not Found: /favicon.ico
 WARNING 2024-04-01 16:36:45,574 basehttp 6950 139595418310208 "GET /favicon.ico HTTP/1.1" 404 2434
 INFO 2024-04-01 16:39:35,714 autoreload 6950 139595468709888 /home/alexfro/GeekBrains/Django/djangoProject/dz/dz/settings.py changed, reloading.
 INFO 2024-04-01 16:39:36,290 autoreload 7099 130300511551488 Watching for file changes with StatReloader
+INFO 2024-04-16 14:06:42,306 autoreload 4556 126099364130816 Watching for file changes with StatReloader

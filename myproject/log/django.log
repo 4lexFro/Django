@@ -499,3 +499,8 @@ INFO 2024-04-11 19:54:35,113 autoreload 29611 140518025756672 /home/alexfro/Geek
 INFO 2024-04-11 19:54:36,109 autoreload 29646 130185140174848 Watching for file changes with StatReloader
 INFO 2024-04-11 19:55:26,113 autoreload 29646 130185140174848 /home/alexfro/GeekBrains/Django/djangoProject/myproject/myapp5/models.py changed, reloading.
 INFO 2024-04-11 19:55:27,491 autoreload 29656 137328443920384 Watching for file changes with StatReloader
+INFO 2024-04-15 18:50:28,458 autoreload 6201 132988322820096 Watching for file changes with StatReloader
+INFO 2024-04-15 18:50:37,214 views 6201 132988262151744 Index page accessed
+INFO 2024-04-15 18:50:37,316 basehttp 6201 132988262151744 "GET / HTTP/1.1" 200 13
+WARNING 2024-04-15 18:50:45,473 log 6201 132988262151744 Not Found: /favicon.ico
+WARNING 2024-04-15 18:50:45,509 basehttp 6201 132988262151744 "GET /favicon.ico HTTP/1.1" 404 12928
