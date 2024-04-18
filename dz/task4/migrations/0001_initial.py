@@ -75,10 +75,10 @@ class Migration(migrations.Migration):
                 (
                     "client",
                     models.ForeignKey(
-                        on_delete=django.db.models.deletion.CASCADE, to="myapp4.client"
+                        on_delete=django.db.models.deletion.CASCADE, to="task4.client"
                     ),
                 ),
-                ("products", models.ManyToManyField(to="myapp4.product")),
+                ("products", models.ManyToManyField(to="task4.product")),
             ],
         ),
     ]
